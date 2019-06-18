@@ -12,10 +12,11 @@ import re
 import random
 from mydict import my_dictionary
 import options
-#from valassign import reassign
+#just deleted this line...
 import check
 import valassign
 from newcsv import create_csv
+#this extra line craved to be added
 
 class quiz(options.option_generator,check.check_condition,valassign.variable):
     
